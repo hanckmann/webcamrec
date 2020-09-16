@@ -111,4 +111,5 @@ def record_images(root_folder: Union[str, Path]):
 
 
 if __name__ == '__main__':
-    record_images()
+    root_folder = Path.cwd()
+    record_images(root_folder)
